@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Carlos">
+        <meta name="generator" content="Brackets">
+        <meta name="keywords" content="HTML5, CURSO DE HTML, JAVASCRIPT, CSS, CURSO DE FRONT END">
+        <meta name="description" content="Curso de HTML% - Imedia - Udemy">
+        <meta name="application-name" content="Imedia Brasil">
+       <!-- a função abaixo faz um refresh na pagina a cada 4 segundo  -->
+        <meta http-equiv="refresh" content = "4">
+        <script>    
+            /* cria uma função que carrega a variavel resultado com um valor randomico ate entre 0 e 50*/
+            function sorteioNumero(){
+                resultado.innerHTML = Math.random() *50;
+                
+                
+            }
+        /*executa a função java script criada na executsão da pagina a cada carregamento*/    
+        window.onload = sorteioNumero;
+        </script>
+        
+        
+    </head>
+    <body>
+        <p id="resultado"></p>
+        
+    </body>
+</html>
